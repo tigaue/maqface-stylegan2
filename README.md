@@ -1,1 +1,1 @@
-# Motion transfer-enhanced styleGAN for generating diverse macaque facial expressions
+# Motion transfer-enhanced StyleGAN for generating diverse macaque facial expressions
