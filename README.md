@@ -8,9 +8,10 @@ First row/column: Source images. First column images are motion-transferred for 
 
 - Inject 0,1,2 of column images
 ![result of style mixing](img/mixing_0_1_2.gif "result of style mixing")
-
 - Layer 6,7,8
 ![result of style mixing](img/mixing_6_7_8.gif "result of style mixing")
+- Morph (50% blending in all layers)
+![result of style mixing](img/mixing_morph.gif "result of style mixing")
 
 ### Use your own source images
 
@@ -25,9 +26,6 @@ First row/column: Source images. First column images are motion-transferred for 
 
 Second row/column: Inversion images.
 
-All layer of column images were 50% injected to row images.
-
-![result of style mixing](img/mixing_morph.gif "result of style mixing")
 
 
 ## Editing
