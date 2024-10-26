@@ -52,4 +52,4 @@ If you use this code for your research, please cite the following work:
 Our facial motions include ones from [MF3D](https://github.com/Phenomenal-Cat/MF3D-Tools "MF3D").
 For the motion transfer, we used [TPSMM](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model "TPSMM") for motion synthesis.
 For the image generation, our method are based on [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada "StyleGAN2-ADA")
-and [ReStyle](https://github.com/yuval-alaluf/restyle-encoder "ReStyle").
+and [ReStyle](https://github.com/yuval-alaluf/restyle-encoder "ReStyle"). For the image editing, our method are based on [InterfaceGAN](https://github.com/genforce/interfacegan "InterfaceGAN") and [StyleSpace-pytorch](StyleSpace)
