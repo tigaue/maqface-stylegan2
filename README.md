@@ -6,7 +6,7 @@
 
 
 
-## Style mixing
+## Inversion and Style mixing
 ### Mixing results
 
 First row/column: Source images. Second row/column: Inverted images.<br>
