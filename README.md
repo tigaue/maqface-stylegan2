@@ -28,7 +28,7 @@ bash scripts/style_mixing_maq.sh
 ## Editing
 
 
-![result of editing](img/editing_sample.gif "result of editing")
+![result of editing](img/editing_sample.svg "result of editing")
 
 ### Use your own source images
 
