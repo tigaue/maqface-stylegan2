@@ -4,7 +4,8 @@
 ## Style mixing
 ### Mixing results
 
-First row/column: Source images. First column images are motion-transferred for motions defined in our paper. Second row/column: Inversion images.
+First row/column: Source images. Second row/column: Inverted images.<br>
+Images in the first column were synthesized for the motions which is described in our paper.
 
 - Injection of 0,1,2 layers from column images to row images (Mouth movements)
 ![result of style mixing](img/mixing_0_1_2.gif "result of style mixing")
