@@ -29,7 +29,7 @@ bash scripts/style_mixing_maq.sh
 
 We offer editing direction for facial expression _bark_, _blink_, _brow raise_, _chewing_, _coo_, _lip smack_, _scream_, _threat_, _tongue protrude_, _yawn_ from [MF3D](https://github.com/Phenomenal-Cat/MF3D-Tools "MF3D"). We also offer additional facial motion from our original video for _look-up_, _look-down_, _look-left_, _look-right_, _tongue show_ and annotated directions for _species_, _age_, and _sex_, and _head orientation_.
 
-For the quality of face editing, please refer to the paper.
+For the quality of face editing, please refer to our paper.
 
 ![result of editing](img/editing_sample.svg "result of editing")
 
