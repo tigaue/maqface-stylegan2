@@ -28,6 +28,13 @@ bash scripts/style_mixing_maq.sh
 ## Editing
 
 
+![result of editing](img/editing_sample.gif "result of editing")
+
+### Use your own source images
+
+```bash
+bash scripts/editing_maq.sh
+```
 
 ## Citation
 If you use this code for your research, please cite the following work:
