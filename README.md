@@ -19,13 +19,4 @@ First row/column: Source images. First column images are motion-transferred for 
 bash scripts/style_mixing_maq.sh
 ```
 
-
-
-## Result of morph
-First row/column: Source images. First column images are motion-transferred for motions defined in our paper.
-
-Second row/column: Inversion images.
-
-
-
 ## Editing
