@@ -21,9 +21,18 @@ Images in the first column were synthesized for the motions which is described i
 
 ### Use your own source images
 
+We provide a simple mixing software which enable to interactively edit the predefined facial properties. Key typing of *s* decreases, while key typing of *f* increases the blending ratio.
+
+In the following bash file, you shoud specify image paths (```path_img``` and ```path_img2```), a checkpoint path of the restyle-encoder (```checkpoint_path```), list of layers to mix is specified by the argument of (```mixing_layers```).
+
+The prepared checkpoint at ```data/checkpoints/maqface-stylegan2.pt``` is trained with the motion transfer-based augmentation and the L2 loss for eye.
+
 ```bash
 bash scripts/demo_mixing.sh
 ```
+<p align="center">
+  <img src="img/mixing_sample_interactive.png" width="40%">
+</p>
 
 ## Editing
 
@@ -39,7 +48,7 @@ We provide a simple editing software which enable to interactively edit the pred
 
 In the following bash file, you shoud specify an image path (```path_img```), a checkpoint path of the restyle-encoder (```checkpoint_path```), and a pool directory of the editing directions (```dir_directions```).
 
-The prepared checkpoint at ```data/checkpoints/``` is trained with the motion transfer-based augmentation and the L2 loss for eye.
+The prepared checkpoint at ```data/checkpoints/maqface-stylegan2.pt``` is trained with the motion transfer-based augmentation and the L2 loss for eye.
 
 ```bash
 bash scripts/demo_editing.sh
