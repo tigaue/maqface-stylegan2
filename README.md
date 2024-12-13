@@ -22,7 +22,7 @@ Images in the first column were synthesized for the motions which is described i
 ### Use your own source images
 
 ```bash
-bash scripts/style_mixing_maq.sh
+bash scripts/demo_mixing.sh
 ```
 
 ## Editing
@@ -35,9 +35,19 @@ For the quality of face editing, please refer to our paper.
 
 ### Use your own source images
 
+We provide a simple editing software which enable to interactively edit the predefined facial properties. Key typing correspoints to manipulate motions along the editing directions.
+
+In the following bash file, you shoud specify an image path (```path_img```), a checkpoint path of the restyle-encoder (```checkpoint_path```), and a pool directory of the editing directions (```dir_directions```).
+
+The prepared checkpoint at ```data/checkpoints/``` is trained with the motion transfer-based augmentation and the L2 loss for eye.
+
 ```bash
-bash scripts/editing_maq.sh
+bash scripts/demo_editing.sh
 ```
+
+<p align="center">
+  <img src="img/editing_sample_interactive.png" width="40%">
+</p>
 
 ## Citation
 If you use this code for your research, please cite the following work:
