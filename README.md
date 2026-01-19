@@ -2,8 +2,12 @@
 
 > In this study, we developed StyleGAN2 model for macaque monkeys, which are widely studied in systems neuroscience and evolutionary research, and proposed a method for generating their facial expressions. Since, facial expressions are largely consistent across individuals due to the similar musculoskeletal structures and their role in social communication, we address the limitation of lack of available data by introducing a data augmentation approach. We used a motion transfer technique and refined the training procedures, which consisted of three steps: 1) data augmentation by synthesizing new facial expression images using a motion transfer technique to animate still images via computer graphic animations, 2) selection of image samples based on the latent representation of macaque faces from the initially trained StyleGAN2 model to ensure the variation and uniform sampling in training dataset, and 3) refinement of the loss function to ensure the accurate reproduction of subtle movements, such as eye movements. We demonstrated that the model trained using our method can generate a wider variety of facial expressions for multiple macaque individuals compared to a model trained solely on original still images without motion-transfer-based data augmentation. We also showed that our model is effective for style-base image editing and revealed that specific style parameters correspond to particular facial movements, highlighting its potential to identify individual action components as sets of disentangled style parameters.
 
-<a href="https://arxiv.org/html/2511.16711v1" target=”_blank”><img src="https://img.shields.io/static/v1?label=Paper&message=arxiv.org/2511.16711&color=red" height=22.5></a>
+<a href="https://arxiv.org/html/2511.16711v1"><img src="https://img.shields.io/static/v1?label=Paper&message=arxiv.org/2511.16711&color=red" height=22.5></a>
 
+## TODO
+- [X] Publish README.md
+- [ ] Upload codes for StyleGAN2
+- [ ] Upload checkpoints for StyleGAN3
 
 ## Inversion and Style mixing
 ### Mixing results
