@@ -9,6 +9,8 @@
 - [ ] Upload codes for StyleGAN2
 - [ ] Upload checkpoints for StyleGAN3
 
+StyleGAN2 checkpoints are uploaded at https://doi.org/10.6084/m9.figshare.31869274
+
 ## Inversion and Style mixing
 ### Mixing results
 
